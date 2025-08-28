@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import PlaceList from "../components/PlaceList/PlaceList.component";
 
-const DUMMY_PLACES = [
+export const DUMMY_PLACES = [
   {
     id: "p1",
     title: "Empire State Building",
@@ -15,11 +15,11 @@ const DUMMY_PLACES = [
       lat: 40.748817,
       lng: -73.985428,
     },
-    creator: "u2",
+    creator: "u1",
   },
   {
     id: "p2",
-    title: "Empire State Building",
+    title: "Emp. State Building",
     description: "One of the most famous skyscrapers in the world.",
     imageUrl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Empire_State_Building_%28cropped%29.jpg/800px-Empire_State_Building_%28cropped%29.jpg",
@@ -28,7 +28,7 @@ const DUMMY_PLACES = [
       lat: 40.748817,
       lng: -73.985428,
     },
-    creator: "u3",
+    creator: "u2",
   },
 ];
 
